@@ -31,6 +31,7 @@
 }
 
 body {
+    min-width: 380px;
     background: var(--background);
     color: var(--text);
 }
@@ -48,3 +49,20 @@ a {
     text-decoration: none;
 }
 
+
+.logo {
+    position: absolute;
+    width: 360px;
+    height: 76px;
+    left: 820px;
+    top: 199px;
+}
+
+.logo strong {
+    font-weight: 600;
+}
+
+
+.logo h1{
+  font-size: 2.5rem;
+}
